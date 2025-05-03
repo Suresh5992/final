@@ -1,0 +1,29 @@
+IAM 
+
+Access key :  AKIA5CBGS7HJXVE6RSSO(((((((
+
+Secret access key : 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(((((((
+
+terraform init
+terraform validate
+terraform apply
+
+terraform destroy
+
+
+
+
+ppk files won't Accept 
+
+
+
+aws ec2 import-key-pair --key-name suresh-key --public-key-material fileb://"C:\Users\USER\Desktop\blaze\suresh.pub"
+
+
+
+ssh -i /path/to/suresh.pub ubuntu@ 54.245.76.95
+
+chmod 400 /path/to/suresh.pub.pem
+
+
+
